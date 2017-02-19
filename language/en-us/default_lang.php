@@ -1,1 +1,1 @@
-<?php$lang['home'] = 'Home Page';$lang['about_us'] = 'About Us';
+<?php$lang['home'] = 'Home Page';$lang['about_us'] = 'About Us';$lang['contact_us'] = 'Contact Us';
