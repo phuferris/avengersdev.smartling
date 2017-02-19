@@ -1,0 +1,1 @@
+<?php$lang['home'] = 'Home Page';$lang['about_us'] = 'About Us';
