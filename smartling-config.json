@@ -46,7 +46,7 @@
          // Custom commit message is also defined
          {
             "type"                      : "json",
-            "pathRegex"                 : "avengersdev.smartling\\/translated-language\\/en-us\\/.*\\.json",
+            "pathRegex"                 : "avengersdev.smartling\\/translated-language\\/en-us\\/.*\\.pot",
             "translationPathExpression" : "avengersdev.smartling\\/translated-language/${originalFile.baseName}_${locale}.${originalFile.extension}",
             "translationCommitMessage"  : "avengersdev.smartling\\/Translate ${originalFile.fullName} to ${locale}"
          }
