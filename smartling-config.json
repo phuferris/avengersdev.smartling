@@ -42,13 +42,17 @@
      //    smartlingDirectives       - string array with additional Smartling directives. Allowed directives depend on resource type.
      //                                See https://docs.smartling.com/display/docs/Supported+File+Types#SupportedFileTypes-java
      "resourceSets": [
-         // Translation set for docx files, translation results will be put to "translated" sub-folder and translated locale will be added to result file names.
-         // Custom commit message is also defined
          {
             "type"                      : "gettext",
-            "pathRegex"                 : "avengersdev.smartling\\/translated\\/.*\\.pot",
+            "pathRegex"                 : "translated\\/.*\\.pot",
             "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
             "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
+         },
+         {
+           "type"                      : "json",
+           "pathRegex"                 : "translated\\/en\\/.*\\.json",
+           "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+           "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
          }
      ]
 }
