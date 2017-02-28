@@ -10,11 +10,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: /main.html
-msgid "Your best Friends."
-msgid_plural "Your best Friends."
+msgid "Your Friends."
+msgid_plural "Your Friends."
 msgstr[0] ""
 msgstr[1] ""
 
 #: /footer.html
-msgid "© 2012 All Rights Reserved."
+msgid "© 2017 All Rights Reserved."
 msgstr ""
