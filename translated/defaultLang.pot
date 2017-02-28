@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: /main.html
-msgid "Your best Friends ... "
+msgid "Your best Friends"
 msgid_plural "Your best Friends"
 msgstr[0] ""
 msgstr[1] ""
