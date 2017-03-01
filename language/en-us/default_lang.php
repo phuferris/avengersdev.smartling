@@ -1,1 +1,1 @@
-<?php$lang['cancel'] = 'Cancel';$lang['terms_and_conditions'] = 'Terms and Conditions';$lang['terms_and_conditions_lowercase'] = 'terms and conditions';
+<?php$lang['cancel_button'] = 'Cancel';$lang['terms_and_conditions'] = 'Terms and Conditions';$lang['terms_and_conditions_lowercase'] = 'terms and conditions';
