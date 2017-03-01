@@ -43,6 +43,12 @@
             "pathRegex"                 : "translated\\/.*.pot",
             "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
             "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
+         },
+         {
+           "type"                      : "json",
+           "pathRegex"                 : "translated\\/en/\\/.*.json",
+           "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
+           "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
          }
      ]
 }
