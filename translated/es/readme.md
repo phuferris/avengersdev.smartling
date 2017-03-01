@@ -1,0 +1,1 @@
+This folder contain all Spanish language files that needs to convert into .php language files

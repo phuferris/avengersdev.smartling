@@ -1,0 +1,1 @@
+This folder contain all French language files that needs to convert into .php language files
