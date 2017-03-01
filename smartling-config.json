@@ -39,12 +39,6 @@
      //                                See https://docs.smartling.com/display/docs/Supported+File+Types#SupportedFileTypes-java
      "resourceSets": [
          {
-            "type"                      : "gettext",
-            "pathRegex"                 : "translated\\/.*.pot",
-            "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
-            "translationCommitMessage"  : "Translate ${originalFile.fullName} to ${locale}"
-         },
-         {
            "type"                      : "json",
            "pathRegex"                 : "translated\\/en/\\/.*.json",
            "translationPathExpression" : "translated/${originalFile.baseName}_${locale}.${originalFile.extension}",
