@@ -1,0 +1,1 @@
+This repository is used to keep track of CrowdRise language files in form of json string format to submit Smartling API for translatingThe repository is used by Smartling Repo Connector Daemon, which is set to run in CrowdRise Repo Connector server to submit the changes in CrowdRise language files within the repo and download its translated files back to the repo

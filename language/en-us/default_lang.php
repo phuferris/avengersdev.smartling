@@ -1,1 +1,1 @@
-<?php$lang['home'] = 'Home Page';$lang['about_us'] = 'About Us';$lang['contact_us'] = 'Contact Us';
+<?php$lang['button_cancel'] = 'Cancel';$lang['terms_and_conditions'] = 'Terms and Conditions';$lang['terms_and_conditions_lowercase'] = 'terms and conditions';
