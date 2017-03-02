@@ -1,0 +1,1 @@
+<?php$lang['general_error'] = 'Something has gone wrong.';
